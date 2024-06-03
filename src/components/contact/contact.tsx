@@ -10,10 +10,10 @@ import data from "@/config/data.json";
 export default function Contact() {
   const { phone, emailID, address, addressLink } = data.contact;
   const [inputs, setInput] = useState({
-    name: "sai",
-    subject: "testing subject",
-    email: "test@gmail.com",
-    content: "some random content",
+    name: "",
+    subject: "",
+    email: "",
+    content: "",
     error: "",
     success: false,
     loading: false,

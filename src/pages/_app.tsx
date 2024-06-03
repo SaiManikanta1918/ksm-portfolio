@@ -2,7 +2,6 @@ import "@/styles/globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import { ProSidebarProvider } from "react-pro-sidebar";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import { IconContext } from "react-icons";
@@ -32,14 +31,12 @@ export default function App({ Component, pageProps }: AppProps) {
           sizes="512x512"
         />
       </Head>
-      <ProSidebarProvider>
         <Component {...pageProps} />
         <SpeedInsights />
         <Analytics />
         <IconContext.Provider
           value={{ style: { verticalAlign: "middle" } }}
         ></IconContext.Provider>
-      </ProSidebarProvider>
     </>
   );
 }
