@@ -1,0 +1,225 @@
+{
+  "displayPicture": {
+    "fileName": "avatar.webp",
+    "alt": "Display Picture"
+  },
+  "home": {
+    "name": "SaiManikanta",
+    "intro": "A Strategic Software Engineer with about 3 years of industry experience and skilled in application development, testing and optimization. Excels at coordinating ground-up planning, programming, and implementation for core modules.Maintains strong object-oriented and software architecture fundamentals. Talented Software Developer equipped with great coding, debugging and project management abilities. Accomplishes project goals consistently with elegant, scalable code. Works great with team members under Agile and Scrum frameworks.",
+    "socialLinks": [
+      {
+        "name": "Github",
+        "link": "https://github.com/SaiManikanta1918",
+        "icon": "IoLogoGithub"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/sai-manikanta-karnati-9a62601b1/",
+        "icon": "IoLogoLinkedin"
+      }
+    ]
+  },
+  "profile": {
+    "profilePictureFileName": "ksm_profile_picture.jpeg",
+    "profilePictureAlt": "Profile Image",
+    "name": "SaiManikanta Karnati",
+    "bio": "Building, researching, and exploring technology fuels my days. Bridging tech, products, policy, philosophy, and life's big questions, I seek diverse perspectives through stimulating conversations.",
+    "details": {
+      "location": "Charlotte, North Carolina, United States",
+      "experienceStartDate": "2021-08-01",
+      "currentRole": "Software Engineer",
+      "currentRoleShort": "SWE",
+      "openToCollaboration": "Yes",
+      "coreCompetencies": "Technology & Development",
+      "coreCompetenciesShort": "Tech & Dev",
+      "personalPursuits": "ML & Mobile App Development"
+    },
+    "resume": "ksm_resume.pdf"
+  },
+  "bio": {
+    "workExperience": [
+      {
+        "company": "FullyInControl",
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "description": "Mainly focusses on the design part, developing new features according to the user requirements, and addressing critical defects in the product, contributing to the enhancement of product reliability and performance.",
+            "year": "Jan 2024 - Present"
+          }
+        ],
+        "companyURL": "https://fullyincontrol.nl/"
+      },
+      {
+        "company": "Xebia (Formerly coMakeIT)",
+        "roles": [
+          {
+            "title": "Associate Software Engineer",
+            "description": "Worked on Pub-Sub models and developed reactive features in the application and improved existing features with new architecture. Worked on REST APIs with Node js and Express for the backend of the application. Worked on the architecture by using Design Patterns to design complex and robust features in the application. Enhanced database performance by optimizing MongoDB access through the implementation of indexes, by utilizing mongodb atlas search which is mongodb cloud service resulting in faster data retrieval and performance inprovement by 10%",
+            "year": "July 2022 - Nov 2023"
+          }
+        ],
+        "companyURL": "https://website.xebia.com/digital-transformation/software-technology/product-engineering/"
+      },
+      {
+        "company": "Xebia (Formerly coMakeIT)",
+        "roles": [
+          {
+            "title": "Engineer Trainee",
+            "description": "Experienced team leader adept at overseeing React front-end projects and Java backend development with a small team during my internship. Proficient in guiding projects to success through collaborative efforts, strategic planning, and technical acumen, Participating in code reviews to ensure code quality, adherence to coding standards",
+            "year": "Aug 2021 - July 2022"
+          }
+        ],
+        "companyURL": "https://website.xebia.com/digital-transformation/software-technology/product-engineering/"
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of North Carolina At Charlotte",
+        "degrees": [
+          {
+            "title": "Master of Computer Science (MS)",
+            "year": "Jan 2024 - May 2025",
+            "description": "As a current master's student in computer science in the United States, my perspective is a dynamic blend of academic immersion and professional ambition. Every day, I find myself deeply engaged in intricate coursework and learning cutting-edge technologies that not only expand my understanding of complex algorithms and programming languages but also fuel my passion for technological innovation. Beyond the confines of the classroom, I actively seek out networking opportunities, attending industry events and connecting with professionals to stay abreast of the latest advancements in technology. Balancing academic rigor with practical experiences, such as internships or co-op positions, allows me to bridge the gap between theory and real-world applications, reinforcing the relevance of my studies to address contemporary challenges. Despite the occasional challenges, my journey in computer science is driven by a profound desire to contribute meaningfully to the ever-evolving landscape of technology, knowing that each endeavor brings me closer to realizing my aspirations and making a lasting impact on the world."
+          }
+        ],
+        "institutionURL": "https://www.charlotte.edu/"
+      },
+      {
+        "institution": "CMR Engineering College",
+        "degrees": [
+          {
+            "title": "Bachelor of Technology",
+            "year": "Aug 2018 - May 2022",
+            "description": "Graduated with First Class with Distinction (CGPA: 7.73) in Computer Science & Engineering, specializing in data structures, algorithms, and Database technologies. Represented the college at national-level and qualified in Virtusa Codelite Hackathon. Awarded with a medal for the excellant performace in final year placements and academics"
+          }
+        ],
+        "institutionURL": "https://cmrec.ac.in/"
+      },
+      {
+        "institution": "Narayana College",
+        "degrees": [
+          {
+            "title": "Intermediate Education (Higher Secondary)",
+            "year": "Jun 2016 - May 2018",
+            "description": "Completed high schooling under the Board of Intermediate Education Andhra Pradesh with score of 970 of 1000."
+          }
+        ],
+        "institutionURL": "https://www.narayanajuniorcolleges.com/"
+      },
+      {
+        "institution": "St. John's English Medium High School",
+        "degrees": [
+          {
+            "title": "SSC (Secondary School)",
+            "year": "Jun 2006 - May 2016",
+            "description": "Completed secondary schooling with SSC curriculum, securing a notable score of 9.7 gpa of 10"
+          }
+        ],
+        "institutionURL": "https://maps.app.goo.gl/c9nzjadJuDvDM9TCA"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "title": "Java",
+      "icon": "GrJava"
+    },
+    {
+      "title": "Python",
+      "icon": "IoLogoPython"
+    },
+    {
+      "title": "JavaScript",
+      "icon": "BiLogoJavascript"
+    },
+    {
+      "title": "Solidity",
+      "icon": "SiSolidity"
+    },
+    {
+      "title": "Node",
+      "icon": "GrNode"
+    },
+    {
+      "title": "ReactJS",
+      "icon": "GrReactjs"
+    },
+    {
+      "title": "Debugging",
+      "icon": "CgDebug"
+    },
+    {
+      "title": "Git",
+      "icon": "FaGitAlt"
+    },
+    {
+      "title": "Agile Methodologies",
+      "icon": "DiScrum"
+    },
+    {
+      "title": "Unit Testing",
+      "icon": "FaCheckDouble"
+    },
+    {
+      "title": "PostgreSQL",
+      "icon": "BiLogoPostgresql"
+    },
+    {
+      "title": "MongoDB",
+      "icon": "SiMongodb"
+    },
+    {
+      "title": "Deployment",
+      "icon": "BsFillCloudArrowUpFill "
+    },
+    {
+      "title": "Team Management",
+      "icon": "RiTeamFill"
+    },
+    {
+      "title": "Leadership",
+      "icon": "BsFillPersonLinesFill"
+    },
+    {
+      "title": "Problem Solving",
+      "icon": "FaLightbulb"
+    },
+    {
+      "title": "Effective Communication",
+      "icon": "FaComments"
+    },
+    {
+      "title": "Remote Collaboration",
+      "icon": "FaHouseLaptop"
+    },
+    {
+      "title": "Teamwork",
+      "icon": "BiGroup"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Software Development",
+      "description": "Passionate about creating impactful products, I have hands-on experience building websites, applications and backend services. Currently honing my skills in crafting clean and efficient software for optimal user experiences.",
+      "icon": "MdDevicesOther"
+    }
+  ],
+  "portfolio": {
+    "portfolioItems": [
+      {
+        "title": "SnapStore",
+        "description": "Snapstore is a fullstack web application where users can upload pictures, chat with friends, like,comment and save the posts, follow others and many more...",
+        "link": "https://snapstore-codesnap.vercel.app/",
+        "imageName": "snapstore_app.png",
+        "imageAlt": "Snapstore Image",
+        "technologies": ["Javascript", "React", "Tailwind CSS", "Firebase"]
+      }
+    ]
+  },
+  "contact": {
+    "phone": "+1 (919) 538 5336",
+    "emailID": "karnatisaimanikanta123@gmail.com",
+    "address": "Charlotte, North Carolina, United States",
+    "addressLink": "https://www.google.com/maps/place/Charlotte/"
+  }
+}
