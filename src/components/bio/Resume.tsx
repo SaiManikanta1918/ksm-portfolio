@@ -6,7 +6,7 @@ import BioItem from "./bioItem";
 import data from "@/config/data.json";
 
 export default function Resume() {
-  const workExperience = data.bio.workExperience;
+  const workExperience = data.bio.workExperience.filter((exp, index) => index > 0 );
   const education = data.bio.education;
   return (
     <div className="containerMain">
