@@ -51,14 +51,13 @@ export default function Profile() {
               {profileData.details.experienceStartDate && (
                 <li>
                   <b>Demonstrated Expertise</b>
-                  {"2.4 "}
-                  {/* {(
+                  {(
                     (new Date().getTime() -
                       new Date(
                         profileData.details.experienceStartDate
                       ).getTime()) /
                     (1000 * 60 * 60 * 24 * 365)
-                  ).toPrecision(2) + " "} */}
+                  ).toPrecision(2) + " "}
                   Years
                 </li>
               )}
