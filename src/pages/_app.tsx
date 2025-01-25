@@ -31,12 +31,12 @@ export default function App({ Component, pageProps }: AppProps) {
           sizes="512x512"
         />
       </Head>
-        <Component {...pageProps} />
-        <SpeedInsights />
-        <Analytics />
-        <IconContext.Provider
-          value={{ style: { verticalAlign: "middle" } }}
-        ></IconContext.Provider>
+      <Component {...pageProps} />
+      <SpeedInsights />
+      <Analytics />
+      <IconContext.Provider
+        value={{ style: { verticalAlign: "middle" } }}
+      ></IconContext.Provider>
     </>
   );
 }

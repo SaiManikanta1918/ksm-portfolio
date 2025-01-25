@@ -5,7 +5,7 @@
   },
   "home": {
     "name": "SaiManikanta",
-    "intro": "A Strategic Software Engineer with about 2 years of industry experience and skilled in application development, testing and optimization. Excels at coordinating ground-up planning, programming, and implementation for core modules.Maintains strong object-oriented and software architecture fundamentals. Talented Software Developer equipped with great coding, debugging and project management abilities. Accomplishes project goals consistently with elegant, scalable code. Works great with team members under Agile and Scrum frameworks.",
+    "intro": "A Strategic Software Engineer with above 3 years of industry experience and skilled in application development, testing and optimization. Excels at coordinating ground-up planning, programming, and implementation for core modules.Maintains strong object-oriented and software architecture fundamentals. Talented Software Developer equipped with great coding, debugging and project management abilities. Accomplishes project goals consistently with elegant, scalable code. Works great with team members under Agile and Scrum frameworks.",
     "socialLinks": [
       {
         "name": "Github",
@@ -32,7 +32,7 @@
       "openToCollaboration": "Yes",
       "coreCompetencies": "Technology & Development",
       "coreCompetenciesShort": "Tech & Dev",
-      "personalPursuits": "ML & Mobile App Development"
+      "personalPursuits": "Data Science & Web Development"
     },
     "resume": "ksm_resume.pdf"
   },
@@ -43,19 +43,30 @@
         "roles": [
           {
             "title": "Software Engineer",
-            "description": "Mainly focusses on the design part, developing new features according to the user requirements, and addressing critical defects in the product, contributing to the enhancement of product reliability and performance.",
+            "description": "Experienced Software Development Engineer in Java, React, Angular, and advanced JavaScript, I'm deeply passionate about software development. I've played a key role in driving core functionality and features in both my current and previous roles. In my current project, the features I've implemented have resulted in a 15% increase in sales and enhanced customer satisfaction with the user experience. Additionally, I introduced caching techniques in the front end, reducing database calls by 20%, and implemented automation with Playwright, which led to a 45% reduction in bugs within the application. ",
             "year": "Jan 2024 - Present"
           }
         ],
         "companyURL": "https://fullyincontrol.nl/"
       },
       {
+        "company": "University of North Carolina At Charlotte",
+        "roles": [
+          {
+            "title": "Graduate Teaching Assistant",
+            "description": "Led weekly discussion sections with over 40 graduate students, facilitating hands-on coding exercises and enhancing their understanding of algorithm design and data structures. Graded assignments and exams for 100+ students, providing detailed feedback on coding skills and algorithmic thinking, contributing to an overall 10% improvement in class performance. Developed supplementary instructional materials (problem sets, study guides, lecture notes), which were used by 95% of students in the course, enhancing learning retention. Collaborated with the professor to refine the curriculum, incorporating the latest research trends and technologies, leading to a 20% increase in student engagement.",
+            "year": "Aug 2024 - Present"
+          }
+        ],
+        "companyURL": "https://www.charlotte.edu/"
+      },
+      {
         "company": "Xebia (Formerly coMakeIT)",
         "roles": [
           {
             "title": "Associate Software Engineer",
-            "description": "Worked on Pub-Sub models and developed reactive features in the application and improved existing features with new architecture. Worked on REST APIs with Node js and Express for the backend of the application. Worked on the architecture by using Design Patterns to design complex and robust features in the application. Enhanced database performance by optimizing MongoDB access through the implementation of indexes, by utilizing mongodb atlas search which is mongodb cloud service resulting in faster data retrieval and performance inprovement by 10%",
-            "year": "July 2022 - Nov 2023"
+            "description": "Re-architected features using Pub-Sub models, boosting application performance by 20% and improving UI responsiveness. For the backend, I built REST APIs using Node.js and Express. Additionally, I utilized Design Patterns to create complex and robust application features. To enhance database performance, I optimized MongoDB queries by implementing indexes and using MongoDB Atlas Search, a cloud service, which led to a 10% increase in data retrieval speed and overall performance.",
+            "year": "Aug 2022 - Dec 2023"
           }
         ],
         "companyURL": "https://website.xebia.com/digital-transformation/software-technology/product-engineering/"
@@ -66,7 +77,7 @@
           {
             "title": "Engineer Trainee",
             "description": "Experienced team leader adept at overseeing React front-end projects and Java backend development with a small team during my internship. Proficient in guiding projects to success through collaborative efforts, strategic planning, and technical acumen, Participating in code reviews to ensure code quality, adherence to coding standards",
-            "year": "Aug 2021 - July 2022"
+            "year": "Sep 2021 - Jul 2022"
           }
         ],
         "companyURL": "https://website.xebia.com/digital-transformation/software-technology/product-engineering/"
@@ -121,36 +132,77 @@
   },
   "skills": [
     {
+      "title": "JavaScript",
+      "icon": "BiLogoJavascript"
+    },
+    {
       "title": "Java",
-      "icon": "GrJava"
+      "icon": "FaJava"
+    },
+    {
+      "title": "AWS",
+      "icon": "FaAws"
     },
     {
       "title": "Python",
       "icon": "IoLogoPython"
     },
     {
-      "title": "JavaScript",
-      "icon": "BiLogoJavascript"
-    },
-    {
-      "title": "Solidity",
-      "icon": "SiSolidity"
-    },
-    {
       "title": "Node",
       "icon": "GrNode"
+    },
+    {
+      "title": "VueJS",
+      "icon": "BiLogoVuejs"
     },
     {
       "title": "ReactJS",
       "icon": "GrReactjs"
     },
+
+    {
+      "title": "Solidity",
+      "icon": "SiSolidity"
+    },
+    {
+      "title": "MongoDB",
+      "icon": "SiMongodb"
+    },
+    {
+      "title": "Playwright",
+      "icon": "SiPlaywright"
+    },
+    {
+      "title": "Meteor JS",
+      "icon": "SiMeteor"
+    },
+    {
+      "title": "Spring Boot",
+      "icon": "BiLogoSpringBoot"
+    },
+    {
+      "title": "My SQL",
+      "icon": "SiMysql"
+    },
+    {
+      "title": "Material UI",
+      "icon": "SiMui"
+    },
+    {
+      "title": "Quasar",
+      "icon": "SiQuasar"
+    },
+    {
+      "title": "Tailwind CSS",
+      "icon": "SiTailwindcss  "
+    },
+    {
+      "title": "Bootstrap",
+      "icon": "SiBootstrap"
+    },
     {
       "title": "Debugging",
       "icon": "CgDebug"
-    },
-    {
-      "title": "Git",
-      "icon": "FaGitAlt"
     },
     {
       "title": "Agile Methodologies",
@@ -159,18 +211,6 @@
     {
       "title": "Unit Testing",
       "icon": "FaCheckDouble"
-    },
-    {
-      "title": "PostgreSQL",
-      "icon": "BiLogoPostgresql"
-    },
-    {
-      "title": "MongoDB",
-      "icon": "SiMongodb"
-    },
-    {
-      "title": "Deployment",
-      "icon": "BsFillCloudArrowUpFill "
     },
     {
       "title": "Team Management",
@@ -189,18 +229,40 @@
       "icon": "FaComments"
     },
     {
-      "title": "Remote Collaboration",
-      "icon": "FaHouseLaptop"
-    },
-    {
       "title": "Teamwork",
       "icon": "BiGroup"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Git",
+      "icon": "FaGitAlt"
+    },
+    {
+      "title": "Bitbucket",
+      "icon": "FaBitbucket"
+    },
+    {
+      "title": "Jira",
+      "icon": "SiJira"
+    },
+    {
+      "title": "Codeship",
+      "icon": "SiCodeship"
+    },
+    {
+      "title": "VS Code",
+      "icon": "SiVisualstudio"
+    },
+    {
+      "title": "Docker",
+      "icon": "SiDocker"
     }
   ],
   "interests": [
     {
       "title": "Software Development",
-      "description": "Passionate about creating impactful products, I have hands-on experience building websites, applications and backend services. Currently honing my skills in crafting clean and efficient software for optimal user experiences.",
+      "description": "Driven by a passion for creating meaningful products, I have practical experience in developing websites, applications, backend services, and blockchain solutions using Solidity. I'm currently focused on enhancing my ability to craft clean, efficient software to deliver the best possible user experiences.",
       "icon": "MdDevicesOther"
     }
   ],
@@ -213,6 +275,50 @@
         "imageName": "snapstore_app.png",
         "imageAlt": "Snapstore Image",
         "technologies": ["Javascript", "React", "Tailwind CSS", "Firebase"]
+      },
+      {
+        "title": "Dapp-bookstore",
+        "description": "Dapp-bookstore is a blockchain (smart contracts) application implemented using solidity. It is a bookstore where we can sell books and add books through the ganache cli",
+        "link": "https://github.com/SaiManikanta1918/Dapp-bookstore",
+        "imageName": "blockchain_technology.jpg",
+        "imageAlt": "Decentralized Book Store",
+        "technologies": ["Javascript", "React", "Solidity"]
+      },
+      {
+        "title": "Snake Game",
+        "description": "Developed a classic Snake game where players navigate a growing snake to eat food and avoid collisions. The game emphasizes reflexes and strategy as players aim for the highest score.",
+        "link": "https://github.com/SaiManikanta1918/snake_game",
+        "imageName": "snake_game.jpg",
+        "imageAlt": "Decentralized Book Store",
+        "technologies": ["Java"]
+      }
+    ]
+  },
+  "certifications": {
+    "certificationItems": [
+      {
+        "title": "AWS",
+        "link": "https://www.credly.com/badges/63300014-658a-4198-accc-83393107453d",
+        "imageName": "aws_certified_developer_associate.png",
+        "imageAlt": "AWS Cerified Devloper"
+      },
+      {
+        "title": "AWS",
+        "link": "https://www.credly.com/badges/99e946bd-6c66-4d22-81e3-865deb68563c/linked_in_profile",
+        "imageName": "aws_data_engineering.png",
+        "imageAlt": "AWS Academy Graduate - AWS Academy Data Engineering"
+      },
+      {
+        "title": "MongoDB",
+        "link": "https://www.credly.com/badges/9b423d13-e70a-47b1-aa96-cd41045e5e13",
+        "imageName": "mongodb_cerified_developer.png",
+        "imageAlt": "MongoDB Certified Developer"
+      },
+      {
+        "title": "Infosys",
+        "link": "assets/certifications/infosys_certified_software_programmer.jpeg",
+        "imageName": "infosys_certified_software_programmer.jpeg",
+        "imageAlt": "Infosys Certified Software Programmer"
       }
     ]
   },

@@ -40,7 +40,7 @@ export default function PortfolioItem({
                 sizes="100vw"
                 style={{
                   width: "100%",
-                  height: "auto",
+                  height: "300px",
                 }}
               />
               <ul>
@@ -51,7 +51,12 @@ export default function PortfolioItem({
           <div>
             <h5 className={styles.portfolioItemHeading}>{title}</h5>
             <p className={styles.portfolioItemDescription}>{description}</p>
-            <div className={styles.portfolioItemTechnologies}>
+            <div
+              style={{
+                padding: "12px 0px",
+              }}
+              className={styles.portfolioItemTechnologies}
+            >
               {technologies.map((technology, index) => {
                 return <span key={index}>{technology}</span>;
               })}

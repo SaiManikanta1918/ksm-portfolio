@@ -1,8 +1,8 @@
-.portfolioItemLink {
+.certificationItemLink {
   text-decoration: none;
 }
 
-.portfolioItem {
+.certificationItem {
   background-color: var(--secondary-background-color);
   padding: 20px 20px 10px 20px;
   position: relative;
@@ -11,14 +11,14 @@
   margin-bottom: 30px;
 }
 
-.portfolioItemImageContainer {
+.certificationItemImageContainer {
   max-width: 100%;
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
 }
 
-.portfolioItemImage::before {
+.certificationItemImage::before {
   content: "";
   position: absolute;
   left: 10px;
@@ -32,7 +32,7 @@
   transform-origin: 0;
   z-index: 98;
 }
-.portfolioItemImage ul {
+.certificationItemImage ul {
   margin-bottom: 0;
   padding-left: 0;
   position: absolute;
@@ -47,7 +47,7 @@
   transition: all 0.2s ease-in-out 0.2s;
   z-index: 99;
 }
-.portfolioItemImage ul svg {
+.certificationItemImage ul svg {
   background: var(--content-text-color);
   padding: 10px;
   width: 40px;
@@ -57,27 +57,27 @@
   border-radius: 100%;
   transition: all 0.4s ease-out;
 }
-.portfolioItemImage ul svg:hover {
+.certificationItemImage ul svg:hover {
   background: var(--primary-accent-color);
 }
-/* .portfolioItemImageContainer:hover {
-  .portfolioItemImage::before {
+/* .certificationItemImageContainer:hover {
+  .certificationItemImage::before {
     transform: scaleX(1);
   }
-  .portfolioItemImage ul {
+  .certificationItemImage ul {
     visibility: visible;
     opacity: 1;
     margin-top: 0px !important;
   }
 } */
 
-.portfolioItem:hover {
-  .portfolioItemHeading {
+.certificationItem:hover {
+  .certificationItemHeading {
     color: var(--primary-accent-color);
   }
 }
 
-.portfolioItemHeading {
+.certificationItemHeading {
   transition: all 0.5s ease-out;
   font-weight: 700;
   font-size: 1.4rem;
@@ -87,20 +87,20 @@
   margin-left: 5px;
 }
 
-.portfolioItemDescription {
+.certificationItemDescription {
   color: var(--content-text-color);
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 5px;
   margin-left: 5px;
 }
-.portfolioItemTechnologies {
+.certificationItemTechnologies {
   color: var(--primary-text-color);
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.7px;
 }
-.portfolioItemTechnologies span {
+.certificationItemTechnologies span {
   background-color: var(--secondary-accent-color);
   padding: 4px 7px;
   border-radius: 20px;
@@ -108,16 +108,16 @@
 }
 
 @media only screen and (max-width: 1080px) {
-  .portfolioItem {
+  .certificationItem {
     margin-bottom: 20px;
   }
-  .portfolioItemHeading {
+  .certificationItemHeading {
     font-size: 1rem;
   }
-  .portfolioItemDescription {
+  .certificationItemDescription {
     font-size: 0.8rem;
   }
-  .portfolioItemTechnologies {
+  .certificationItemTechnologies {
     font-size: 0.7rem;
   }
 }

@@ -4,7 +4,7 @@
 }
 .avatar_image {
   border-radius: 40%;
-  overflow: hidden; 
+  overflow: hidden;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
 }
 .avatar_box {

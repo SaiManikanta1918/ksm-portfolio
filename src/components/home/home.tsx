@@ -7,7 +7,7 @@ export default function Home() {
   const homeData = data.home;
   const socialLinks = homeData.socialLinks;
   const circlesBackgroundAnimation = (
-    <ul className={styles.circles}>
+    <ul className={styles.shapes}>
       <li></li>
       <li></li>
       <li></li>

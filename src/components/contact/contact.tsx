@@ -20,18 +20,18 @@ export default function Contact() {
   });
   const { name, subject, email, content, error, success, loading } = inputs;
 
-  const handleChange =
-    (name: string) =>
-    (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-      const value = event.target.value;
-      setInput({
-        ...inputs,
-        [name]: value,
-        success: false,
-        loading: false,
-        error: "",
-      });
-    };
+  const handleChange = (name: string) => (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const value = event.target.value;
+    setInput({
+      ...inputs,
+      [name]: value,
+      success: false,
+      loading: false,
+      error: "",
+    });
+  };
   const onSubmit = (event: FormEvent<HTMLFormElement>) => {
     const form: HTMLFormElement = document.getElementById(
       "myForm"
@@ -110,8 +110,7 @@ export default function Contact() {
   };
 
   function isValidEmail(email: string) {
-    const emailRegex =
-      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return email.match(emailRegex);
   }
 
@@ -137,7 +136,7 @@ export default function Contact() {
           <div id="contact-form">
             <form onSubmit={onSubmit} id="myForm">
               <div className={styles.formField}>
-                <label htmlFor="name">What should I call you? *</label>
+                <label htmlFor="name">Name? *</label>
                 <input
                   type="text"
                   id="name"
@@ -150,7 +149,7 @@ export default function Contact() {
                 />
               </div>
               <div className={styles.formField}>
-                <label htmlFor="email">What is your email address? *</label>
+                <label htmlFor="email">Email address? *</label>
                 <input
                   type="email"
                   id="email"
@@ -162,7 +161,7 @@ export default function Contact() {
                 />
               </div>
               <div className={styles.formField}>
-                <label htmlFor="subject">What is this enquiry about? *</label>
+                <label htmlFor="subject">Subject? *</label>
                 <input
                   type="text"
                   id="subject"
@@ -218,7 +217,12 @@ export default function Contact() {
             <div className={styles.containerInfoBlockText}>
               <p>
                 <strong>Email</strong> <br />{" "}
-                <Link href={"mailto:" + emailID}>{emailID}</Link>
+                <Link
+                  style={{ wordBreak: "break-word" }}
+                  href={"mailto:" + emailID}
+                >
+                  {emailID}
+                </Link>
               </p>
             </div>
           </div>
