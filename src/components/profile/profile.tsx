@@ -91,12 +91,6 @@ export default function Profile() {
                   {profileData.details.coreCompetenciesShort}
                 </li>
               )}
-              {profileData.details.personalPursuits && (
-                <li>
-                  <b>Personal Pursuits</b>{" "}
-                  {profileData.details.personalPursuits}
-                </li>
-              )}
             </ul>
             {profileData.resume && (
               <Button
